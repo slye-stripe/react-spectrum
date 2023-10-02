@@ -11,7 +11,8 @@
  */
 
 function isStyleVisible(element: Element) {
-  if (!(element instanceof HTMLElement) && !(element instanceof SVGElement)) {
+  const windowObject = element.ownerDocument?.defaultView || window;
+  if (!(element instanceof windowObject.HTMLElement) && !(element instanceof windowObject.SVGElement)) {
     return false;
   }
 
@@ -49,11 +50,11 @@ function isAttributeVisible(element: Element, childElement?: Element) {
 }
 
 /**
- * Adapted from https://github.com/testing-library/jest-dom and 
+ * Adapted from https://github.com/testing-library/jest-dom and
  * https://github.com/vuejs/vue-test-utils-next/.
  * Licensed under the MIT License.
  * @param element - Element to evaluate for display or visibility.
- */  
+ */
 export function isElementVisible(element: Element, childElement?: Element) {
   return (
     element.nodeName !== '#comment' &&

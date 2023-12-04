@@ -19,7 +19,7 @@ export {useDateField, useDatePicker, useDateRangePicker, useDateSegment, useTime
 export {useDialog} from '@react-aria/dialog';
 export {FocusRing, FocusScope, useFocusManager, useFocusRing, useFocusable} from '@react-aria/focus';
 export {I18nProvider, useCollator, useDateFormatter, useFilter, useLocale, useLocalizedStringFormatter, useMessageFormatter, useNumberFormatter} from '@react-aria/i18n';
-export {useFocus, useFocusVisible, useFocusWithin, useHover, useInteractOutside, useKeyboard, useMove, usePress, useLongPress} from '@react-aria/interactions';
+export {setupFocus, useFocus, useFocusVisible, useFocusWithin, useHover, useInteractOutside, useKeyboard, useMove, usePress, useLongPress} from '@react-aria/interactions';
 export {useField, useLabel} from '@react-aria/label';
 export {useGridList, useGridListItem, useGridListSelectionCheckbox} from '@react-aria/gridlist';
 export {useLink} from '@react-aria/link';

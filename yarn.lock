@@ -3410,6 +3410,34 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.10.2.tgz#0798c03351f0dea1a5a4cabddf26a55a7cbee590"
   integrity sha512-IXf3XA7+XyN7CP9gGh/XB0UxVMlvARGEgGXLubFICsUMGz6Q+DU+i4gGlpOxTjKvXjkJDJC8YdqdKkDj9qZHEQ==
 
+"@react-aria/dnd@3.0.0-alpha.11":
+  version "3.0.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@react-aria/dnd/-/dnd-3.0.0-alpha.11.tgz#cba0b551922ad32facdccbd2856d0d7e81f13bf3"
+  integrity sha512-je2YtzMbKDOwSHZmmVmkiovrmBTlRTUDXeI2LSBZcP+S2TMg+E2z6NaWtsZfFNkfdxnvOF2dIH34xQrj+z7iQw==
+  dependencies:
+    "@babel/runtime" "^7.6.2"
+    "@internationalized/string" "^3.0.0"
+    "@react-aria/i18n" "^3.5.0"
+    "@react-aria/interactions" "^3.10.0"
+    "@react-aria/live-announcer" "^3.1.1"
+    "@react-aria/overlays" "^3.10.0"
+    "@react-aria/utils" "^3.13.2"
+    "@react-aria/visually-hidden" "^3.4.0"
+    "@react-stately/dnd" "3.0.0-alpha.9"
+    "@react-stately/selection" "^3.10.2"
+    "@react-types/button" "^3.6.0"
+    "@react-types/shared" "^3.14.0"
+
+"@react-stately/dnd@3.0.0-alpha.9":
+  version "3.0.0-alpha.9"
+  resolved "https://registry.yarnpkg.com/@react-stately/dnd/-/dnd-3.0.0-alpha.9.tgz#10089c2c19ba00c0afc67aa80f2ca9d49d8014c2"
+  integrity sha512-xDXxaZaBiQw5M12Q9Dqgva5UlS1tLz/2e6UGYXSRz1kmfo8EWpnByvpl2kd5DcHlS5B6qptQlQBZqk0waW/Vyg==
+  dependencies:
+    "@babel/runtime" "^7.6.2"
+    "@react-stately/selection" "^3.10.2"
+    "@react-stately/utils" "^3.5.1"
+    "@react-types/shared" "^3.14.0"
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
